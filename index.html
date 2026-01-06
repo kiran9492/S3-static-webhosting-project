@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiran Kumar Ayancha | AWS Cloud Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+
+    section {
+      padding: 70px 10%;
+      animation: fadeUp 1.2s ease-in-out;
+    }
+
+    h1, h2 {
+      color: #38bdf8;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 40px;
+      font-size: 2.2rem;
+    }
+
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      color: #cbd5f5;
+      font-size: 1.2rem;
+    }
+
+    /* Cards */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 14px;
+      transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 15px 30px rgba(56,189,248,0.3);
+    }
+
+    .card h3 {
+      color: #7dd3fc;
+      margin-bottom: 10px;
+    }
+
+    /* Skills */
+    .skills span {
+      display: inline-block;
+      background: #020617;
+      padding: 8px 14px;
+      margin: 6px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      transition: 0.3s;
+    }
+
+    .skills span:hover {
+      background: #38bdf8;
+      color: #020617;
+    }
+
+    /* Reviews */
+    .review {
+      background: #020617;
+      border-left: 4px solid #38bdf8;
+      padding: 20px;
+      border-radius: 10px;
+      font-style: italic;
+    }
+
+    .review h4 {
+      margin-top: 10px;
+      color: #38bdf8;
+      text-align: right;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #020617;
+      margin-top: 40px;
+    }
+
+    footer a {
+      color: #38bdf8;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Kiran Kumar Ayancha</h1>
+    <p>AWS Cloud Engineer | DevOps Enthusiast</p>
+    <p>Vijayawada, Andhra Pradesh</p>
+  </header>
+
+  <!-- About -->
+  <section>
+    <h2>Professional Summary</h2>
+    <div class="card">
+      <p>
+        AWS Cloud Engineer with strong foundational knowledge in deploying, managing,
+        and maintaining cloud infrastructure using Amazon Web Services. Skilled in
+        designing scalable, secure, and cost-optimized architectures with a passion
+        for automation, monitoring, and performance optimization.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section>
+    <h2>Technical Skills</h2>
+    <div class="card skills">
+      <span>AWS</span>
+      <span>EC2</span>
+      <span>S3</span>
+      <span>IAM</span>
+      <span>VPC</span>
+      <span>RDS</span>
+      <span>CloudFront</span>
+      <span>CloudWatch</span>
+      <span>Route 53</span>
+      <span>Terraform</span>
+      <span>CloudFormation</span>
+      <span>Docker</span>
+      <span>GitHub Actions</span>
+      <span>GitLab CI/CD</span>
+      <span>Maven</span>
+      <span>Linux</span>
+      <span>Python</span>
+      <span>SQL</span>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section>
+    <h2>Projects</h2>
+    <div class="grid">
+
+      <div class="card">
+        <h3>3-Tier Web Application on AWS</h3>
+        <p>
+          Designed and deployed a secure 3-tier architecture using VPC, public/private
+          subnets, EC2, RDS (MySQL), ELB, and Auto Scaling for high availability and
+          performance optimization.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>CI/CD Pipeline for Java Application</h3>
+        <p>
+          Built a CI/CD pipeline using GitHub Actions to automate build and deployment
+          of Java applications to Apache Tomcat on AWS EC2 using Maven and secure
+          secrets.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Electronic Health Records using Blockchain</h3>
+        <p>
+          Designed a secure blockchain-based EHR system with a responsive UI using
+          React.js, HTML, and CSS to improve healthcare data security and transparency.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section>
+    <h2>Reviews</h2>
+    <div class="grid">
+
+      <div class="review">
+        <p>
+          "Kiran has excellent cloud fundamentals and delivered a well-architected AWS
+          solution with security and scalability in mind."
+        </p>
+        <h4>- Project Mentor</h4>
+      </div>
+
+      <div class="review">
+        <p>
+          "Strong DevOps mindset with hands-on CI/CD and automation skills."
+        </p>
+        <h4>- Team Lead</h4>
+      </div>
+
+      <div class="review">
+        <p>
+          "Quick learner with great problem-solving ability in cloud technologies."
+        </p>
+        <h4>- Technical Reviewer</h4>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      📧 <a href="mailto:kiranayancha@gmail.com">kiranayancha@gmail.com</a> |
+      📞 9492808072
+    </p>
+    <p>© 2026 Kiran Kumar Ayancha</p>
+  </footer>
+
+</body>
+</html>
